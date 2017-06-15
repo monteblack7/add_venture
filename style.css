@@ -1,0 +1,76 @@
+body {
+    background-color: #584f40;
+}
+
+.navbar-override {
+    top: 0;
+    display: inline-block;
+}
+
+.navbar-fixed-left {
+    width: 140px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav>li {
+    float: none;
+    width: 139px;
+}
+
+.navbar-fixed-left+container {
+    padding-left: 160px;
+}
+
+.intro h1 {
+    margin-left: 140px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #909090;
+}
+
+.intro p {
+    margin-left: 140px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    color: #909090;
+}
+
+.box {
+    width: 92.5%;
+    height: 900px;
+    border: 3px solid black;
+    margin: auto;
+    margin-left: 140px;
+    border-radius: 0.5%;
+}
+
+#winter {
+    background-image: url("winter_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+}
+
+#spring {
+    background-image: url("spring_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+}
+
+#summer {
+    background-image: url("summer_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+}
+
+#fall {
+    background-image: url("fall_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+}
